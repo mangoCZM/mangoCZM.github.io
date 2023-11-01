@@ -1,0 +1,15 @@
+{
+  "name": "mangoCZM.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mangoCZM/mangoCZM.github.io.git",
+  "author": "zm.c <zhimeng.chen@amh-group.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
