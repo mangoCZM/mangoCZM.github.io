@@ -1,27 +1,27 @@
 module.exports = {
   title: "Hello Vuepress",
   description: "Vuepress Demo",
-  theme: "reco",
+  // theme: "reco",
   themeConfig: {
     // 评论
-    vssueConfig: {
-      platform: "github",
-      owner: "mangoCZM",
-      repo: "mangoCZM.github.io",
-      clientId: "b96576353ac9ae065231",
-      clientSecret: "92be9297f07648b46ecfd317b4ed231e188f5cc8",
-    },
+    // vssueConfig: {
+    //   platform: "github",
+    //   owner: "mangoCZM",
+    //   repo: "mangoCZM.github.io",
+    //   clientId: "b96576353ac9ae065231",
+    //   clientSecret: "92be9297f07648b46ecfd317b4ed231e188f5cc8",
+    // },
     // 需要登录
-    keyPage: {
-      // 202cb962ac59075b964b07152d234b70
-      keys: ["d9b1d7db4cd6e70935368a1efb10e377"], //MD5
-      color: "#42b983", // 登录页动画球的颜色
-      lineColor: "#42b983", // 登录页动画线的颜色
-    },
+    // keyPage: {
+    //   // 202cb962ac59075b964b07152d234b70
+    //   keys: ["d9b1d7db4cd6e70935368a1efb10e377"], //MD5
+    //   color: "#42b983", // 登录页动画球的颜色
+    //   lineColor: "#42b983", // 登录页动画线的颜色
+    // },
     author: "Hello world",
     startYear: "2023",
     lastUpdated: "上次更新",
-    subSidebar: "auto",
+    // subSidebar: "auto",
     nav: [
       // { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
       { text: "首页", link: "/", icon: "reco-home" },
@@ -34,22 +34,14 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: "欢迎学习",
-        path: "/",
-        collapsable: false, // 不折叠
-        children: [{ title: "学前必读", path: "/" }],
-      },
-      {
-        title: "基础学习",
+        title: "条件类型",
         path: "/handbook/ConditionalTypes",
         collapsable: false, // 不折叠
-        children: [
-          {
-            title: "条件类型",
-            path: "/handbook/ConditionalTypes",
-          },
-          { title: "泛型", path: "/handbook/Generics" },
-        ],
+      },
+      {
+        title: "泛型",
+        path: "/handbook/Generics",
+        collapsable: false, // 不折叠
       },
     ],
   },

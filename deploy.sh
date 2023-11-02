@@ -5,6 +5,7 @@ set -e
 
 git add .
 git commit -m 'commit vuepress'
+git push
 
 # 生成静态文件
 yarn build
