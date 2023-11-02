@@ -3,6 +3,9 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+git add .
+git commit -m 'commit vuepress'
+
 # 生成静态文件
 yarn build
 
