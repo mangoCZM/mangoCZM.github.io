@@ -10,7 +10,8 @@
   },
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "vuepress-theme-reco": "^1.6.17"
