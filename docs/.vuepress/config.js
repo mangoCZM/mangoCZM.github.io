@@ -4,13 +4,13 @@ module.exports = {
   theme: "reco",
   themeConfig: {
     // 评论
-    vssueConfig: {
-      platform: "github",
-      owner: "mangoCZM",
-      repo: "mangoCZM.github.io",
-      clientId: "b96576353ac9ae065231",
-      clientSecret: "92be9297f07648b46ecfd317b4ed231e188f5cc8",
-    },
+    // vssueConfig: {
+    //   platform: "github",
+    //   owner: "mangoCZM",
+    //   repo: "mangoCZM.github.io",
+    //   clientId: "b96576353ac9ae065231",
+    //   clientSecret: "92be9297f07648b46ecfd317b4ed231e188f5cc8",
+    // },
     // 需要登录
     keyPage: {
       // 202cb962ac59075b964b07152d234b70
