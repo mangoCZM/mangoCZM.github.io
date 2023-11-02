@@ -3,19 +3,23 @@ module.exports = {
   description: "Vuepress Demo",
   theme: "reco",
   themeConfig: {
+    keyPage: {
+      // 202cb962ac59075b964b07152d234b70
+      keys: ["d9b1d7db4cd6e70935368a1efb10e377"], 
+      color: "#42b983", // 登录页动画球的颜色
+      lineColor: "#42b983", // 登录页动画线的颜色
+    },
+    author: "Hello world",
+    startYear: "2023",
     lastUpdated: "上次更新",
     subSidebar: "auto",
     nav: [
-      { text: "首页", link: "/" },
+      { text: "首页", link: "/", icon: "reco-home" },
+      { text: " GitHub", link: "https://github.com", icon: "reco-github" },
       {
-        text: "我的博客",
-        items: [
-          { text: "Github", link: "https://github.com" },
-          {
-            text: "掘金",
-            link: "https://juejin.cn",
-          },
-        ],
+        text: "HuaWei",
+        link: "https://www.huawei.com/cn/",
+        icon: "reco-huawei",
       },
     ],
     sidebar: [
