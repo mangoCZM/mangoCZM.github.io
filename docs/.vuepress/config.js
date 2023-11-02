@@ -3,6 +3,8 @@ module.exports = {
   description: "Vuepress Demo",
   theme: "reco",
   themeConfig: {
+    lastUpdated: "上次更新",
+    subSidebar: "auto",
     nav: [
       { text: "首页", link: "/" },
       {
@@ -28,7 +30,10 @@ module.exports = {
         path: "/handbook/ConditionalTypes",
         collapsable: false, // 不折叠
         children: [
-          { title: "条件类型", path: "/handbook/ConditionalTypes" },
+          {
+            title: "条件类型",
+            path: "/handbook/ConditionalTypes",
+          },
           { title: "泛型", path: "/handbook/Generics" },
         ],
       },
@@ -39,4 +44,5 @@ module.exports = {
       lang: "zh-CN",
     },
   },
+  plugins: ["@vuepress/back-to-top", "@vuepress/nprogress"],
 };
