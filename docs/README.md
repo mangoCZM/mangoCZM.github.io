@@ -16,8 +16,6 @@ features:
 footer: MIT Licensed | Copyright © 2023-present handsome chen
 ---
 
-<NiceButton label="测试"></NiceButton>
-
 ::: tip
 这是一个提示
 :::
