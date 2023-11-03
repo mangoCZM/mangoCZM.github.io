@@ -3,8 +3,11 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+time=$(date "+%Y/%m/%d %H:%M:%S")
+commitMsg="commit vuepress dirs ${time}"
+
 git add .
-git commit -m 'commit vuepress'
+git commit -m "${commitMsg}"
 git push
 
 # 生成静态文件
