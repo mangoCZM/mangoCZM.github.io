@@ -20,11 +20,9 @@ export default {
 $color = #767676;
 $bgColor = #ededed;
 
-$bgColor-hover = #d05dd2
-
 .nice-tag {
   background-color: $bgColor;
-  border-radius: 3px 0 0 3px;
+  border-radius: 2px 0 0 2px;
   padding: 0 20px 0 23px;
   position: relative;
   text-decoration: none;
@@ -38,14 +36,14 @@ $bgColor-hover = #d05dd2
   cursor: pointer;
 
   &:hover {
-    background-color: $bgColor-hover;
+    background-color: $accentColor;
 
     span {
       color: #fff;
     }
 
     &:after {
-      border-left: 10px solid $bgColor-hover;
+      border-left: 10px solid $accentColor;
     }
   }
 

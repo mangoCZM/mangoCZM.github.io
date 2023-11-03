@@ -36,12 +36,10 @@ module.exports = {
       {
         title: "条件类型",
         path: "/handbook/ConditionalTypes",
-        collapsable: false, // 不折叠
       },
       {
         title: "泛型",
         path: "/handbook/Generics",
-        collapsable: false, // 不折叠
       },
     ],
   },
