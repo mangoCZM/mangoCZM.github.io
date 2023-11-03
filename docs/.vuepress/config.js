@@ -18,7 +18,7 @@ module.exports = {
     //   color: "#42b983", // 登录页动画球的颜色
     //   lineColor: "#42b983", // 登录页动画线的颜色
     // },
-    author: "Handsome Chen",
+    author: "ZM Chen",
     startYear: "2023",
     lastUpdated: "上次更新",
     // subSidebar: "auto",

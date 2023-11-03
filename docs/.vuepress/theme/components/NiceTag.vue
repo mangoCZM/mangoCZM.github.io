@@ -17,8 +17,13 @@ export default {
 </script>
 
 <style scoped lang="stylus">
+$color = #767676;
+$bgColor = #ededed;
+
+$bgColor-hover = #d05dd2
+
 .nice-tag {
-  background-color: #ededed;
+  background-color: $bgColor;
   border-radius: 3px 0 0 3px;
   padding: 0 20px 0 23px;
   position: relative;
@@ -29,9 +34,23 @@ export default {
   font-size: 16px;
   font-weight: normal;
   margin-bottom: 8px;
+  font-family: cursive;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $bgColor-hover;
+
+    span {
+      color: #fff;
+    }
+
+    &:after {
+      border-left: 10px solid $bgColor-hover;
+    }
+  }
 
   span {
-    color: #767676;
+    color: $color;
     transition: color 0.2s;
   }
 
